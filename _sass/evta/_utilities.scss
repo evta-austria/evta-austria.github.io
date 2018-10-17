@@ -1,0 +1,60 @@
+.t-small-caps {
+	font-variant: small-caps;
+}
+.c-white {
+	color: $white !important;
+}
+.c-grey {
+	color: rgba(255,255,255,0.55) !important;
+}
+.c-dark-grey {
+	color: rgba(255,255,255,0.35) !important;
+}
+.bg-white {
+  background-color: $white !important;
+}
+.bg-black {
+	background-color: $black !important;
+}
+.bg-transparent {
+  background-color: transparent !important;
+}
+.bg-complementary {
+	background-color: $ci-text-complementary-heavy !important;
+}
+.fw-light {
+	font-weight: 300;
+}
+.fw-normal {
+	font-weight: 400;
+}
+.fw-bolder {
+	font-weight: bolder;
+}
+.fw-bold {
+	font-weight: 700;
+}
+.fw-black {
+	font-weight: 900;
+}
+.mtom {
+	margin: 1em 0 0;
+}
+.mbom {
+	margin: 0 0 1em 0;
+}
+.ptom {
+	padding: 1em 0 0;
+}
+.pbom {
+	padding: 0 0 1em 0;
+}
+.a-right {
+	text-align: right;
+}
+.a-left {
+	text-align: left;
+}
+.a-center {
+	text-align: center;
+}

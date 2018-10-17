@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 0 1em 0;
+}
+.card--reverse > .card__figure {
+  order: 1;
+  margin: .5em 0 0 1em;
+}
+
+.card__figure {
+  margin: .5em 1em 0 0;
+  border: 1px solid $black;
+  width: 75px;
+  height: auto;
+}
+
+.card__body {
+  flex: 1;
+}
+.card__funktion {
+	font-weight: bold;
+}
+.card__name {
+	font-variant: small-caps;
+}

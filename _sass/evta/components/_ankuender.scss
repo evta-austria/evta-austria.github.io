@@ -1,0 +1,51 @@
+.ankuender {
+	padding: 0;
+	list-style-type: none;
+	
+	.media {
+	  display: flex;
+	  align-items: flex-start;
+	  margin-bottom: 1em;
+	}
+	
+	.media-figure {
+	  margin-right: 1em;
+	  width: 80px;
+	  height: auto;
+	  border: 1px solid $black;
+	}
+	
+	.media-body {
+	  flex: 1;
+	}
+	
+	.media-time {
+	  margin: 0 0 0 -1em;
+	  padding: .25em .75em .25em 1em;
+	  background-color: lighten( $ci-text-color, 15% );
+	  font-family: $font-family-sans-serif;
+	  color: $white;
+	}
+	h3 {
+	  margin: .125em 0 0; 
+	}
+	p {
+	  font-family: $font-family-sans-serif;
+	  margin: 0;
+	}
+	.media-button {
+	  margin: .75em 0 0;
+	}
+}
+@media (min-width: $break-md ) {
+
+	.ankuender {
+	
+	  .media-figure {
+	    width: 180px;
+	  }
+	  .media-button {
+	    text-align: right;
+	  }
+	}
+}

@@ -1,0 +1,19 @@
+@mixin list( $class-name, $symbol, $color ) {
+	ul.#{$class-name} {
+	  list-style: none;
+	  padding: 0;
+	  
+	  li {
+	    padding-left: 2em;
+	    margin: .5em 0;
+	  }
+	  li:before {
+	    content: $symbol; /* FontAwesome Unicode */
+	    font-family: FontAwesome;
+	    display: inline-block;
+	    color: $color;
+	    margin-left: -2em; /* same as padding-left set on li */
+	    width: 2em; /* same as padding-left set on li */
+	  }
+	}
+}

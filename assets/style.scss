@@ -1,0 +1,37 @@
+---
+# Der Frontmatter-Block muss bestehen bleiben, damit diese Datei
+# transformiert wird.
+---
+@charset "utf-8";
+
+/*
+ * (i) Individuelle Werte für Variablen hier einstellen.
+ *
+ *
+ */
+ 
+/*
+ * (ii) Die Imports für das Sking und das Theme.
+ *
+ *
+ */
+@import "evta/skins/{{ site.skin | default: 'default' }}";
+@import "evta";
+
+/* Debug Styles nur im Entwicklermodus einfügen. */
+{% if jekyll.environment != 'production' %}
+
+  /* 
+   * class="debug" 
+   * Markiert den annotierten Block mit Beige und rahmt ihn mit Hellgrün.
+   *
+   * class="formulierung"
+   * Rahmt den annotierten Block mit Hellgrün und stellt Schriftfarbe auf Rot.
+   */
+  @import "evta/debug";
+  
+{% endif %}
+
+/*
+ * (iii) Ergänzende eigene Styles 
+ */

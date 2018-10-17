@@ -1,0 +1,21 @@
+footer[role^=contentinfo] {
+	background-color: $black;
+	font-size: smaller;
+  	
+	b {
+    color: $white;
+  }
+  .copy {
+    color: $white;
+    
+    a {
+      display: inline;
+      color: $white;
+    }
+  }  
+
+	.cell a {
+    display: block;
+    color: rgba(255,255,255,0.55) !important;
+  }
+}

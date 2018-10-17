@@ -1,0 +1,179 @@
+header[role^=navigation] {
+  width: 100%;
+  
+  nav {
+    width: 100%;
+    padding: 0 ($gutter-width / 2);
+    text-align: center;
+    
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+  hr {
+    display: none;
+  }
+}
+@media (min-width: $break-md ) {
+
+  header[role^=navigation] {
+    width: 100%;
+        
+    nav {
+      width: 100%;
+      text-align: left;
+      max-width: $text-width;
+      margin: 0 auto;
+    }
+    hr {
+      margin: 0 -5%;
+      width: 110%;
+      clear: both;
+      display: block;
+      border: 0;
+      height: 1px;
+      background: $ci-text-color;
+    }
+  } 
+}
+
+/* Logo settings ------------------------------------------------------------ */
+.logo {
+  
+  img {
+    width: auto;
+    height: 110px;
+    background: none;
+  }
+}
+@media (min-width: $break-md ) {
+
+  .logo {
+    img {
+      margin: 0 0 0 -10px;
+    }
+  }	
+}
+
+/* meta navigation ---------------------------------------------------------- */
+nav ul.meta {
+  display: none;
+}
+
+@media (min-width: $break-md ) {
+
+	nav ul.meta {
+	  display: block;
+		float: right;
+		padding: 0;
+		margin: 4px 0 0;
+		list-style: none;
+
+    li {
+			font-size: .8em;
+			padding: 4px 10px 4px 0;
+			display: inline-block;
+			float: left;
+		}  
+		li:last-child {
+			padding: 4px 0;
+		}  
+		li a {
+			color: darken($ci-text-color, 5%);
+			text-decoration: none;
+		}
+		li a:hover {
+		  text-decoration: underline;
+		}
+  }
+}
+
+/* main navigation ---------------------------------------------------------- */
+.toggle {
+	display: block;
+	padding: 0 20px 14px 20px;  
+	color: $ci-staff-color;
+	font-size: 1em;
+	text-decoration: none;
+	border: none;
+}
+.toggle:hover {
+  color: $ci-staff-color;
+}
+.main, [id^=drop] {
+  display: none;
+}
+[id^=drop]:checked + ul {
+	display: block;
+}
+
+@media (min-width: $break-md ) {
+
+	.toggle, [id^=drop] {
+	  display: none;
+	}
+}
+
+nav ul.main {
+  clear: both;
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	
+	li {
+	  display: inline;
+	  float: left;
+    width: 100%;
+    color: $ci-text-color;
+    margin: .25em 0;
+    padding: 0;
+    border-bottom: 1px solid $ci-text-color;
+  }
+  li a {
+    color: $ci-text-color;
+    text-decoration: none;
+  }
+  li a:hover {
+    text-decoration: unerline;
+  }
+}
+@media (min-width: $break-md ) {
+
+	nav ul.main {
+	  display: block;
+	  margin: 0 0 0 -20px;
+	  
+		li {
+		  margin: 0;
+		  display: inline-block;
+		  float: left;
+		  padding: 7px 20px;  
+		  width: initial;
+		  border-bottom: none;
+		}
+		li.active {
+		  background-color: $ci-text-color;
+		  
+		  a { 
+        color: $white; 
+      }
+		}
+		li:hover {
+		  background-color: $ci-staff-color; 
+		  
+		  a { 
+	      color: $white; 
+	    }
+		}
+		li a {
+		  display: block;
+		  color: $ci-staff-color;
+		  font-size: 1em;
+		  text-decoration:none;
+		}
+  }
+}

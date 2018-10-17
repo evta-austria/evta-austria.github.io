@@ -1,0 +1,26 @@
+.dsgvo-header {
+  width: 100%;
+  max-width: $text-width;
+  margin: 0 auto 1em; 
+}
+.dsgvo-headline {
+	font-weight: 300;
+	font-size: 2em;
+	margin-bottom: -.35em;
+}
+.dsgvo-from {
+	color: #787878;
+}
+.dsgvo {
+	font-family: $font-family-legal;
+	
+	h2, h3, h4, h5, h6 {
+	  font-weight: 400;
+	}
+}
+@media (min-width: $break-md ) {
+
+	.dsgvo-headline {
+	  font-size: 2.75em;
+	}
+}

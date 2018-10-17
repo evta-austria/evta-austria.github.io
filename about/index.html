@@ -1,0 +1,104 @@
+--- 
+layout: collection 
+title: EVTA-Austria
+kicker: Das Wer und Was
+description: "Die EVTA-Austria versteht sich als Interessensvertretung von Gesangspädagogen, Stimmbildnern und fachverwandten Berufen."
+breadcrumb: Über uns
+toc: true
+---
+<section>
+  <p>
+    Im Juni 2000 wurde der Bund Österreichischer Gesangspädagogen (BÖG) als Interessensvertretung von Gesangspädagogen, Stimmbildnern und fachverwandten Berufen gegründet.
+  </p>
+  <p>
+    2001 wurde unsere Vereinigung in die Dachverbände European Voice Teachers Association (EVTA) und International Congress of Voice Teachers (ICVT) aufgenommen.  
+  </p>
+  <p>
+    2006 beschlossen wir in unserer Hauptversammlung die Umbenennung in EVTA-Austria. Obwohl wir die deutsche Bezeichnung „Bund Österreichischer Gesangspädagogen“ als Zusatz beibehalten, soll durch das neue Auftreten die Einbettung unserer Organisation in den europäischen Dachverband dokumentiert werden.
+  </p>
+</section>
+<section>
+  <h2>Was machen wir?</h2>
+  <ul class="hand">
+    <li>Wir stellen Kontakte unter den Kolleginnen und Kollegen her.</li>
+    <li>Wir suchen Kontakt zu ausländischen Organisationen.</li>
+    <li>Wir ermöglichen den Austausch fachlicher Informationen auf nationaler und internationaler Ebene.</li>
+    <li>Wir arbeiten mit Vertretern verwandter Fachgebiete zusammen.</li>
+    <li>Wir veranstalten Tagungen, Kongresse, Konzerte und Wettbewerbe.</li>
+    <li>Wir ermöglichen einen intensiven vereinsinternen Informationsaustausch durch Printaussendungen und die Nutzung elektronischer Medien.</li>
+    <li>Gemeinsam mit dem Bundesverband Deutscher Gesangspädagogen (BDG) geben wir regelmäßig die Fachzeitschrift “vox humana” heraus.</li>
+  </ul>
+</section>
+<section id="Personalia">
+  <h2>Personalia</h2>
+  
+  <h3 id="Vorstand">Der Vorstand</h3>
+  {% for i in (1..6) %}
+    {% assign p = site.pages | where: 'vorstand_order_id', i | first %}
+    <div class="card{% cycle '', ' card--reverse' %}">
+      <img class="card__figure" src="{{ p.image.path }}" width="{{ page.image.width }}" height="{{ page.image.height }}" alt="{{ p.image.alt }}">
+      <p class="card__body">
+        <span class="card__funktion">{{ p.kicker }}</span>
+        <span class="card__name">{{ p.breadcrumb }}</span>.
+        {{ p.description | truncatewords: 15 }}<br>
+        <a href="{{ site.baseurl }}{{ p.url }}">zur Kurzbiographie »</a>
+      </p>
+    </div>
+  {% endfor %}
+  
+  <h3 id="Referenten">Referenten</h3>
+  {% for i in (1..2) %}
+    {% assign p = site.pages | where: 'referent_order_id', i | first %}
+    <div class="card{% cycle '', ' card--reverse' %}">
+      <img class="card__figure" src="{{ p.image.path }}" width="{{ page.image.width }}" height="{{ page.image.height }}" alt="{{ p.image.alt }}">
+      <p class="card__body">
+        <span class="card__funktion">{{ p.kicker }}</span>
+        <span class="card__name">{{ p.breadcrumb }}</span>.
+        {{ p.description | truncatewords: 15 }}<br>
+        <a href="{{ site.baseurl }}{{ p.url }}">zur Kurzbiographie »</a>
+      </p>
+    </div>
+  {% endfor %}
+  
+  <h3 id="Laendervertreter">Ländervertreter</h3>
+  {% for i in (1..7) %}
+    {% assign p = site.pages | where: 'laendervertreter_order_id', i | first %}
+    <div class="card{% cycle '', ' card--reverse' %}">
+      <img class="card__figure" src="{{ p.image.path }}" width="{{ page.image.width }}" height="{{ page.image.height }}" alt="{{ p.image.alt }}">
+      <p class="card__body">
+        <span class="card__funktion">{{ p.kicker }}</span>
+        <span class="card__name">{{ p.breadcrumb }}</span>.
+        {{ p.description | truncatewords: 15 }}<br>
+        <a href="{{ site.baseurl }}{{ p.url }}">zur Kurzbiographie »</a>
+      </p>
+    </div>
+  {% endfor %}  
+  
+  <h3 id="Ehrenpraesident">Ehrenpräsident</h3>
+  {% for i in (1..1) %}
+    {% assign p = site.pages | where: 'ehrenpraesident_order_id', i | first %}
+    <div class="card{% cycle '', ' card--reverse' %}">
+      <img class="card__figure" src="{{ p.image.path }}" width="{{ page.image.width }}" height="{{ page.image.height }}" alt="{{ p.image.alt }}">
+      <p class="card__body">
+        <span class="card__funktion">{{ p.kicker }}</span>
+        <span class="card__name">{{ p.breadcrumb }}</span>.
+        {{ p.description | truncatewords: 15 }}<br>
+        <a href="{{ site.baseurl }}{{ p.url }}">zur Kurzbiographie »</a>
+      </p>
+    </div>
+  {% endfor %}
+  
+  <h3 id="Ehrenmitglieder">Ehrenmitglieder</h3>
+  {% for i in (1..6) %}
+    {% assign p = site.pages | where: 'ehrenmitglied_order_id', i | first %}
+    <div class="card{% cycle '', ' card--reverse' %}">
+      <img class="card__figure" src="{{ p.image.path }}" width="{{ page.image.width }}" height="{{ page.image.height }}" alt="{{ p.image.alt }}">
+      <p class="card__body">
+        <span class="card__funktion">{{ p.kicker }}</span>
+        <span class="card__name">{{ p.breadcrumb }}</span>.
+        {{ p.description | truncatewords: 15 }}<br>
+        <a href="{{ site.baseurl }}{{ p.url }}">zur Kurzbiographie »</a>
+      </p>
+    </div>
+  {% endfor %}
+</section>

@@ -1,0 +1,63 @@
+article.content {
+	font-family: $font-family-serif; 
+	
+	header { 
+	
+		h1 {
+		  margin: 0;
+		  line-height: 1.2;
+		  hyphens: manual;
+		}
+		p.kicker {
+		  margin: -.125em 0 2em 0;
+		  color: $ci-text-color;
+		  font-weight: bold;
+		  font-family: $font-family-base;
+		}
+		p.lead {
+		  font-weight: bolder;
+		  font-style: italic;
+		  font-size: larger;
+		  
+		  img {
+		    margin: .5em 1em .25em 0;
+		    border: 1px solid $black;
+		    float: left;
+		  }
+		}
+  }
+  section {
+    padding: 1.5em 0 0 0;
+    clear: both;
+    
+    h2, h3 {
+      margin: 1em 0 .5em 0;
+      hyphens: manual;
+    }
+    p {
+      margin: 0 0 1em 0;
+    }
+  }
+  .text {
+    width: 100%;
+  }
+  a {
+    color: $ci-text-color-heavy;
+  }  
+  strong {
+    font-weight: bold;
+  }
+  @include list( "hand", "\f0a4", $ci-text-color );
+	@include list( "share", "\f064", $ci-text-color );
+	@include list( "checked", "\f00c", $ci-text-color ); 
+	@include list( "thumb", "\f164", $ci-text-color ); 
+}
+@media (min-width: $break-md ) {
+
+  article.content {
+    .text, .toc {
+	    width: 75%;
+	    margin: 0;
+	  }
+  }	
+}

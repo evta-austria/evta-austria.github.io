@@ -1,0 +1,16 @@
+--- 
+layout: default 
+---
+<article class="content">
+  <header>
+    <h1>{{ page.title }}{% if page.zusatz %}<span class="zusatz">{{ page.zusatz }}</span>{% endif %}</h1>
+    <p class="kicker">{{ page.kicker }}</p>
+    <p class="lead">
+      {{ page.description }}
+      <img src="{{ page.image.path }}" width="{{ page.image.width }}" height="{{ page.image.height }}" alt="{{ page.image.alt }}">
+    </p>
+  </header>
+  <div class="text">
+    {{ content }}
+  </div>
+</article>

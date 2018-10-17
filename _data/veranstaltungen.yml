@@ -1,0 +1,451 @@
+#
+#
+# aktuellste Veranstaltung steht oben
+#
+
+- title: "Richard Wagner & der Sängernachwuchs"
+  zeit: "29. September – 1. Oktober 2016"
+  ort: "Kunstuniversität Graz"
+  format: 
+    title: "Symposium & Workshop"
+    subtitle: "in Kooperation von Kunstuniversität und Oper Graz"
+  download: 
+    type: bericht
+    url: 2016-Symposium-Richard-Wagner_KUG.pdf
+    text: Bericht von Helga Wagner
+
+- title: "Mozart und der Gesang"
+  zeit: "16. April 2016"
+  ort: "Universität Mozarteum Salzburg"
+  format:
+    title: "Symposium"
+    subtitle: "in Kooperation mit der Universität Mozarteum Salzburg"
+  download:
+    type: bericht
+    url: 2016-Symposium-Mozart-und-der-Gesang_Mozarteum.pdf
+    text: Bericht von Gabriele Rösel
+  content: '<p>Anschließend <strong>16. Hauptversammlung</strong></p>'
+        
+- title: "ROCK POP JAZZ MUSICAL Techniken und Methoden im Fokus der Gesangspädagogik"
+  zeit: "21./22. Juli 2015"
+  ort: "Joseph Haydn Konservatorium Eisenstadt"
+  format:
+    title: "Jahreskongress"
+    subtitle: 'in Kooperation mit der <a href="http://vokalakademiewien.at/vokal-sommer-akademie">vokal.sommer.akademie VSA</a>'
+  download:
+    type: bericht
+    url: 2015-Jahreskongress-ROCK-POP-JAZZ-MUSICAL_Eisenstadt.pdf
+    text: Bericht von Helga Wagner
+  content: '<p>Anschließend <strong>15. Hauptversammlung</strong></p>'
+    
+- title: "9. Hilde Zadek Wettbewerb"
+  zeit: "April 2015"
+  ort: "Finale im Gläsernen Saal des Wiener Musikvereines"
+  format:
+    title: "Wettbewerb"
+    subtitle: "veranstaltet von der Hildegard Zadek Stiftung in Zusammenarbeit mit der Universität für Musik und darstellende Kunst Wien und EVTA-Austria"
+  download:
+    type: bericht
+    url: 2015-9th-Zadek-Competition.pdf
+    text: Bericht von Helga Wagner
+  content: '<p>Weitere Informationen auf der <a href="https://zadek-competition.jimdo.com/der-wettbewerb/der-wettbewerb-2015/">Homepage</a> des Wettbewerbs.</p>'  
+
+- title: "Vortrag und Masterclass Prof. Michael Dixon"
+  zeit: "22. November 2014"
+  ort: "KONS.podium, Johannesgasse 4a, 1010 Wien"
+  format:
+    title: "Symposium"
+    subtitle: "in Kooperation mit Konservatorium Wien Privatuniversität"
+  download:
+    type: protokoll
+    url: 14te-HV_Protokoll.pdf
+    text: Protokoll der Hauptversammlung  
+  content: '<p>Anschließend <strong>14. Hauptversammlung</strong></p>'
+    
+- title: "ICVT Brisbane"
+  zeit: "10.-14. Juli 2014"
+  ort: Brisbane
+  format: 
+    title: "ICVT"
+    subtitle: "Besuch von Maria Bayer und Martin Vácha beim 8. internationalen Kongress der Gesangslehrer in Brisbane."
+  download:
+    type: bericht
+    url: 2014_ICVT_Brisbane.pdf
+    text: "Bericht von Maria Bayer und Martin Vácha"
+    
+- title: "Abenteuer Interpretation"
+  zeit: "22. März 2014"
+  ort: "1140 Wien, Penzingerstraße 7"
+  format:
+    title: "Symposion"
+    subtitle: "in Zusammenarbeit mit dem Institut für Gesang und Musiktheater der Universität für Musik und darstellende Kunst Wien"
+  download:
+    type: bericht
+    url: vh_10.1_JUN2014_26-32.pdf
+    text: "Bericht von Martin Vácha, Helga Meyer-Wagner und Christine Wagner"
+    
+- title: "Vom Atem zum Gesang - Eine Metamorphose von der Überlebens- zur Kulturatmung"
+  zeit: "28./29. September 2013"
+  ort: "Festspielhaus Salzburg"
+  format:
+    title: "Symposion"
+    subtitle: "Gemeinsam veranstaltet von EVTA-Austria und AVI"
+  download:
+    type: bericht
+    url: 2013-Symposion-Vom-Atem-zum-Gesang_Salzburg.pdf
+    text: "Bericht von Christine Wagner"
+  content: '<p>Anschließend <strong>13. Hauptversammlung</strong></p>'
+    
+- title: "8. Hilde Zadek Wettbewerb"
+  zeit: "1.-6. April 2013"
+  ort: "Finale im Gläsernen Saal des Wiener Musikvereines"
+  format:
+    title: "Wettbewerb"
+    subtitle: "veranstaltet von der Hildegard Zadek Stiftung in Zusammenarbeit mit der Universität für Musik und darstellende Kunst Wien und EVTA-Austria"
+      
+- title: "Grenzgänge"
+  zeit: "20./21. Oktober 2012"
+  ort: "VLK Feldkirch"
+  format:
+    title: "Kongress"
+    subtitle: "Gemeinsam veranstaltet von EVTA-Austria und EVTA.CH"
+  download:
+    type: bericht
+    url: 2012-BerichtCHATs-Grenzgaenge_Feldkirch.pdf
+    text: Bericht von Michael Gerzabek
+  content: "<p>Vorträge über Physiologie und Belastbarkeit von Jugendstimmen, Sängerausbildung in Österreich; Workshops mit Jugendlichen Lass deine Stimme raus! Visualisierung als gesangspädagogische Werkzeug, Unterschiede zwischen klassischen und nicht klassischen Stimmen, Freie Impro – Was? Wann? Wo? Podiumsdiskussion zum Thema Stimmfach für Berufssänger; Meisterklasse mit Sylvia Greenberg</p><p>Jahresversammlung von EVTA.CH: <strong>Ehrenmitgliedschaft</strong> an <strong>Heinrich von Bergen</strong></p>"
+
+- title: "Konsens und Diskrepanz beim Singen und Sprechen auf der Bühne"
+  zeit: "28./29. September 2012"
+  ort: ""
+  format:
+    title: "Tagung"
+    subtitle: "in Kooperation mit der Kunstuniversität Graz"
+  download:
+    type: bericht
+    url: 2012-Tagung-Konsenz-und-Diskrepanz_Graz.pdf
+    text: "Bericht von Helga Meyer-Wagner"
+  content: '<p>Vorträge und Workshops: Atmung – Haltung – Stimme – Sprechen – Singen. Burgschauspieler Joachim Meyerhoff: Lesung aus eigenen Werken; Diskussionen.</p><p>Anschließend <strong>12. Hauptversammlung</strong></p>'
+    
+- title: "Tenore grande: Mythos und Realität"
+  zeit: "5. Mai 2012"
+  ort: "MDW, Penzingerstraße 7, 1140 Wien"
+  format:
+    title: "18. Wiegwita"
+    subtitle: "in Zusammenarbeit mit dem Institut für Gesang und Musiktheater und EVTA-Austria"
+  download:
+    type: bericht
+    url: vh_8.1_18te-WIGEWITA.pdf
+    text: "Bericht von Helga Meyer-Wagner"
+           
+- title: "European Vocal Pedagogy Weekend 2 – Digital Resources Technology. EVTA LEO2 Session"
+  zeit: "23.-26. Februar 2012"
+  ort: "MDW, Rennweg 8, 1030 Wien"
+  format:
+    title: "EVP-Weekend 2"
+    subtitle: "in Zusammenarbeit mit EVTA-Austria und Institut Antonio Salieri"
+  download:
+    type: bericht
+    url: vh_8.1_EVP-Leo-2.pdf
+    text: "Bericht von Michael Büttner, Olga Orlowska, Darja Godec, Katrin Müller Höcker und Georges Regner"
+    
+- title: "Classic meets Pop – Virtuosität und Improvisation"
+  zeit: "12. November 2011"
+  ort: "MDW, Penzingerstraße 7, 1140 Wien"
+  format:
+    title: "17. Wiegewita"
+    subtitle: "in Zusammenarbeit mit dem Institut für Gesang und Musiktheater und EVTA-Austria."
+  download:
+    type: bericht
+    url: 2011-17te-Wiegewita.pdf
+    text: "Bericht von Sibrand Basa"
+  content: '<p>Opernwelt Interview mit Elisabeth Kulman: „<a href="http://www.elisabethkulman.com/wp-content/uploads/2012/09/Opernwelt_2012_0910.pdf" download>Ich musste wieder bei null anfangen</a>“</p><p>Anschließend <strong>11. Hauptversammlung</strong></p>'  
+    
+- title: "7. Internationaler Hilde Zadek Gesangswettbewerb"
+  zeit: "25.-30. April 2011"
+  ort: "Finale im Gläsernen Saal des Wiener Musikvereines"
+  format:
+    title: "Wettbewerb"
+    subtitle: "veranstaltet von der Hildegard Zadek Stiftung in Zusammenarbeit mit der Universität für Musik und darstellende Kunst Wien und EVTA-Austria"
+    
+- title: "Sprung in die Karriere 2"
+  zeit: "16. April 2011"
+  ort: "MDW, Penzingerstraße 7, 1140 Wien"
+  format:
+    title: "16. Wiegewita"
+    subtitle: "in Zusammenarbeit mit dem Institut für Gesang und Musiktheater und EVTA-Austria"
+  download:
+    type: bericht
+    url: 2011-16te-Wiegewita.pdf
+    text: "Bericht von Michael Gerzabek"
+  content: '<p>Die Fortsetzung des Themas „Sprung in die Karriere” brachte Ioan Holender, Heinz Holecek† weitere renommierte Vortragende auf das Podium.</p>'
+    
+- title: "Kommunikation im Gesangsunterricht"
+  zeit: "2. April 2011"
+  ort: "MDW, Rennweg 8, 1030 Wien"
+  format:
+    title: "Symposion"
+    subtitle: "in Zusammenarbeit mit dem Institut Antonio Salieri"
+  download:
+    type: bericht
+    url: vh_7.1_Symposion-2011.pdf
+    text: Bericht von Margarete Jungen
+  content: '<p>Vorträge und Workshops: Kommunikationsberatung in der Lehre und als Führungsaufgabe; Samy Molcho: Die Zunge kann lügen – der Körper nie! Körpersprache im Alltag und auf der Bühne; Team-Teaching mit Elisabeth Bengtson-Opitz; Projekt „Oper hautnah“: The Telephone, Kurzoper von Gian-Carlo Menotti</p>'
+  
+- title: "Sprung in die Karriere"
+  zeit: "20. November 2010"
+  ort: "MDW, Penzingerstraße 7, 1140 Wien"
+  format:
+    title: "15. Wiegewita"
+    subtitle: "in Zusammenarbeit mit dem Institut für Gesang und Musiktheater und EVTA-Austria"
+  download:
+    type: bericht
+    url: 2010-15te-Wiegewita.pdf
+    text: "Bericht von Michael Gerzabek"
+  content: '<p>Das Thema „Sprung in die Karriere” brachte neben renommierten Vortragenden hochkarätige und international anerkannte Künstlerpersönlichkeiten auf das Podium. Am Nachmittag leitete KS Brigitte FASSBAENDER eine öffentliche Meisterklasse.</p>'
+      
+- title: "Festakt „10 Jahre EVTA-Austria“"
+  zeit: "8. Oktober 2010"
+  ort: "Konservatorium Wien Privatuniversität, Johannesgasse 4A, 1010 Wien"
+  format:
+    title: "Festakt"
+    subtitle: "Festworte der Gründungsmitglieder, Rückschau auf 10 Jahre Vereinstätigkeit"
+  download:
+    type: bericht
+    url: vh_6.3_10-Jahre-Evta-Austria.pdf
+    text: "Bericht von Michael Gerzabek"
+  content: "<p>Ranko Markovic: Das Konservatorium Wien als Privatuniversität der Stadt; Konzert von Studierenden der Abteilungen Gesang und Oper sowie Musikalisches Unterhaltungstheater.</p><p>Anschließend <strong>10. Hauptversammlung</strong>.</p><p>Verleihung der <strong>Ehrenmitgliedschaft</strong> an <strong>Angelika Kirchschlager</strong> und <strong>Andy Baum</strong></p>"
+  
+- title: "Selbst- und Projektmanagement für Sänger, Instrumental-, Gesangs- und Musikpädagogen"
+  zeit: "14.-16.Mai 2010"
+  ort: "Donauuniversität Krems"
+  format: 
+    title: "10. Symposion"
+    subtitle: "in Zusammenarbeit mit dem <strong>Zentrum für zeitgenössische Musik der Donauuniversität</strong>"
+  download:
+    type: bericht
+    url: vh_6.2_Symposion-2010.pdf
+    text: "Bericht von Michael Gerzabek"
+  content: '<p>Beiträge von Experten über Selbstmarketing, Bewebungsstrategien, Steuerrecht, Künstlerversicherung, Internet u.a.; Künstlergespräch mit Dietmar Kerschbaum (j:opera Jennersdorf), Projekt „Oper hautnah“ mit Szenen aus „Don Giovanni“</p>'
+      
+- title: "Register, Decken, Resonanzen, Knödel, Sängerstrahl"
+  zeit: "7. November 2009"
+  ort: "MDW, Penzingerstraße 7, 1140 Wien"
+  format:
+    title: "14. Wiegewita"
+    subtitle: "Zur Terminologie des Gesangsunterrichtes.<br>In Zusammenarbeit mit dem Institut für Gesang und Musiktheater und EVTA-Austria"
+  download:
+    type: bericht
+    url: vh_5.3_14te-WIGEWITA.pdf
+    text: "Bericht von Michael Gerzabek"    
+  content: "<p>Anschließend <strong>9. Hauptversammlung</strong></p><p>Verleihung der <strong>Ehrenmitgliedschaft</strong> an <strong>KS Christa Ludwig</strong></p>"
+  
+- title: "Der Einfluss von Hormonen auf die Stimme"
+  zeit: "22.-24. Mai 2009"
+  ort: "Seekirchen / Salzburg"
+  format:
+    title: "9. Symposion"
+    subtitle: "in Zusammenarbeit mit dem Musikum Seekirchen"
+  download:
+    type: bericht
+    url: vh_5.1_9-tes-Symposion-Hormone.pdf
+    text: "Bericht von Helga Meyer-Wagner"
+  content: '<p>Beiträge von bedeutenden Fachleuten aus Medizin und Pädagogik – Der weibliche Hormonhaushalt – Singen 50+ – Vom Kinderchor zum Jugendchor – Dokumentationsfilm „Young @ heart“.</p>'
+    
+- title: "6. Internationaler Hilde Zadek Gesangswettbewerb"
+  zeit: "12.-18. April 2009"
+  ort: "Finale im Festsaal des Wiener Rathauses"
+  format:
+    title: "Wettbewerb"
+    subtitle: "veranstaltet von der Hildegard Zadek Stiftung in Zusammenarbeit mit der Universität für Musik und darstellende Kunst Wien und EVTA-Austria"
+
+- title: "Hören und Sehen"
+  zeit: "März 2009"
+  ort: "MDW, Penzingerstraße 7, 1140 Wien"
+  format:
+    title: "13. Wiegewita"
+    subtitle: "in Zusammenarbeit mit dem Institut für Gesang und Musiktheater und EVTA-Austria"
+    
+- title: "Nationale Gesangsschulen und ihr Einfluss auf die moderne Gesangspädagogik"
+  zeit: "25. Oktober 2008"
+  ort: "MDW, Penzingerstraße 7, 1140 Wien"
+  format:
+    title: "12. Wiegewita"
+    subtitle: "in Zusammenarbeit mit dem Institut für Gesang und Musiktheater und EVTA-Austria"
+  download:
+    type: bericht
+    url: vh_4.3_12te-WIGEWITA.pdf
+    text: "Bericht von Martin Vácha"
+  content: '<p>Anschließend <strong>8. Hauptversammlung</strong> mit Neuwahl des Vorstandes</p>'
+  
+- title: "Jazz und Pop im Gesangsunterricht"
+  zeit: "23.-25. Mai 2008"
+  ort: "Schloss Esterházy, Eisenstadt"
+  format:
+    title: "8. Symposion"
+  download:
+    type: bericht
+    url: vh_4.2_Symposion-Pop.pdf
+    text: "Bericht von Helga Meyer-Wagner"
+  content: "<p>Die Bedeutung der Popularmusik in der Gesangspädagogik Vorträge, Workshops, Sessions, Podiumsdiskussionen mit Experten aus Jazz, Pop, Management, Medizin, Pädagogik und Technik</p>"
+      
+- title: "Große Gesangslehrer und stimmtechnische Tricks"
+  zeit: "13. Oktober 2007"
+  ort: "1030 Wien, Rennweg 8"
+  format:
+    title: "11. Wiegewita"
+    subtitle: "in Zusammenarbeit mit dem Institut Salieri"
+  download:
+    type: bericht
+    url: vh_3.3_11te-WIGEWITA.pdf
+    text: "Bericht Xaver Meyer†"
+  content: '<p>Anschließend <strong>7. Hauptversammlung</strong></p>'
+  
+- title: "5. Internationaler Hilde Zadek Gesangswettbewerb"
+  zeit: "23.-28. September 2007"
+  ort: "MDW"
+  format:
+    title: "Wettbewerb"
+    subtitle: "veranstaltet von der Hildegard Zadek Stiftung unter Mitarbeit von Musikuniversität und EVTA-Austria"
+    
+- title: "Schwerpunkte der Gesangsausbildung vom Kindersingen bis zum Studium"
+  zeit: "2.-4. März 2007"
+  ort: "4040 Linz, Wildbergstraße 18"
+  format:
+    title: "7. Symposion"
+    subtitle: "in Zusammenarbeit mit der Anton Bruckner Privatuniversität"
+  content: '<p>Relative Solmisation – Lebendiger Kinderchor – Singen während der Mutation – Praxis der Sologesangsausbildung – Stimmbildung wie, wann, wo?</p>'
+  
+- title: "Szenisches Arbeiten"
+  zeit: "25. November 2006"
+  ort: "MDW, Penzingerstraße 7, 1140 Wien"
+  format:
+    title: "6. Symposion"
+  download:
+    type: bericht
+    url: vh_2.3_Symposion-Szenische-Arbeit.pdf
+    text: "Bericht von Martin Vácha"
+  content: '<p>Präsentationen: „Die Geckis“ Musicalszenen mit geistig behinderten Kindern „Forced Temptation“, Musicalszenen der AHS Neulandschule „Der Schauspieldirektor probt Zaide“, Opernprobe mit Studierenden der Konservatorium Wien PU, Expertenforum über Anforderungen und Ausbildungsmöglichkeiten für den Bühnenberuf</p><p>In der anschließenden <strong>6. Hauptversammlung</strong> beschloss der Verein die <strong>Umbenennung in EVTA-Austria</strong> Bund österreichischer Gesangspädagogen.</p><p>Bericht von Helga Wagner <a href="/rezensionen/berichte/vh_2.3_BOeG-2-EVTA.pdf" download>herunterladen <i class="fa fa-download" aria-hidden="true"></i></a>'
+  
+- title: "X. Congress of the European Voice Teachers Association: EUROVOX 2006 „Vienna Voice Virtuosity”"
+  zeit: "10.-13. August 2006"
+  ort: "1030 Wien, Anton von Webern-Platz 1"
+  format:
+    title: "EUROVOX 2006"
+    subtitle: "in Zusammenarbeit von EVTA, BÖG und Musikuniversität"
+    
+- title: "Fragen der Stimmbildung für Sologesang, Vokalensembles und Chorgruppen"
+  zeit: "14.-16. Oktober 2005"
+  ort: "9020 Klagenfurt, Mießtaler Straße 8"
+  format:
+    title: "5. Symposion"
+    subtitle: "in Zusammenarbeit mit dem Kärntner Landeskonservatorium"
+  download:
+    type: bericht
+    url: vh_1.2_Fragen-der-Stimmbildung.pdf
+    text: "Bericht Martin Vácha"
+  content: "<p>Vorträge, Workshops, Präsentation des Opernstudios Klagenfurt; Kärntnerlied-Singen mit Helmut Wulz (A-cappella-Chor Villach)</p><p>Anschließend <strong>5. Hauptversammlung</strong></p>"
+  
+- title: "4. Internationaler Hilde Zadek Gesangswettbewerb"
+  zeit: "19.-23. September 2005"
+  ort: "1030 Wien, Anton von Webern-Platz 1"
+  format:
+    title: "Wettbewerb"
+    subtitle: "veranstaltet von der Hildegard Zadek Stiftung unter Mitarbeit von Musikuniversität und BÖG"
+  download:
+    type: bericht
+    url: vh_1.2_4th-Hilde-Zadek-Competition.pdf
+    text: "Bericht Helga Meyer-Wagner"
+    
+- title: "Wie verkaufe ich mich am besten?"
+  zeit: "9. April 2005"
+  ort: "1030 Wien, Rennweg 8"
+  format:
+    title: Tagung
+    subtitle: "in Zusammenarbeit mit dem Institut Salieri der Musikuniversität"
+  download:
+    type: bericht
+    url: vh_1.1_Wie-verkaufe-ich-mich.pdf
+    text: "Bericht von Helga Meyer-Wagner"
+  content: '<p>Selbstmanagement und –präsentation für Gesangspädagogen und Sänger. Ein Operndirektor berät – Dress for success – Selbstcoaching – Mein eigener Gesangskurs – Als Gesangspädagoge ins Internet</p>'
+      
+- title: "Kriterien der vokalen Basisausbildung"
+  zeit: "15.-17. Oktober 2004"
+  ort: "Konservatorium der Stadt Wien, 1010 Wien, Singerstraße 26"
+  format:
+    title: "4. Symposion"
+    subtitle: "in Zusammenarbeit mit dem Konservatorium Wien"
+  content: "<p>Workshop mit Rudolf Piernay – Die Musiklehranstalten der Stadt Wien – Kriterien der vokalen Basisausbildung – Grundlagen der funktionellen Entspannung</p><p>Anschließend <strong>4. Hauptversammlung</strong> mit <strong>Neuwahl des Vorstandes</strong></p><p>Verleihung der <strong>Ehrenmitgliedschaft</strong> an <strong>KS Ruthilde Boesch</strong></p>"
+
+- title: "Körperarbeit für Sänger in Theorie und Praxis"
+  zeit: "24./25. April 2004"
+  ort: "1030 Wien, Anton von Webern-Platz 1"
+  format:
+    title: Tagung
+    subtitle: "in Zusammenarbeit mit dem Institut Salieri der Musikuniversität"
+  content: '<p>Tai Chi / Qi Gong – Alexandertechnik – Pilates-Methode – Manuelle Medizin – Feldenkrais – Bonavox-Methode</p>'
+  
+- title: "Musiktheater-Pädagogik"
+  zeit: "3.-5. Oktober 2003"
+  ort: "Musikschule Innsbruck, Innrain 5"
+  format:
+    title: Tagung
+    subtitle: "in Zusammenarbeit mit dem Tiroler Landeskonservatorium"
+  content: "<p>Vorträge und Präsentationen über Musiktheater-Pädagogik – Musicalgesang – Gesangsunterricht von Johannes Stecher mit Kindern der Wiltener Sängerknaben – Szenen aus „Hänsel und Gretel“ mit Studierenden des Konservatoriums Innsbruck</p><p>Anschließend <strong>3. Hauptversammlung</strong>"
+  
+- title: "3. Internationaler Hilde Zadek Gesangswettbewerb"
+  zeit: "25.-30. September 2003"
+  ort: "1030 Wien, Anton von Webern-Platz 1"
+  format:
+    title: Wettbewerb
+    subtitle: "veranstaltet von der Hildegard Zadek Stiftung unter Mitarbeit von Musikuniversität und BÖG"
+    
+- title: "Wege zum Sängerberuf"
+  zeit: "8. März 2003"
+  ort: "Wiener Staatsoper, Eberhard-Wächter-Probebühne"
+  format:
+    title: Roundtable
+    subtitle: "auf Einladung von Direktor Ioan Holender, Moderator: Karl Löbl"
+    
+- title: "Stimmbildung von Ba- bis Rock!?"
+  zeit: "4.-6. Oktober 2002"
+  ort: "1140 Wien, Penzinger Straße 7, Probebühne"
+  format:
+    title: "2. Symposion"
+    subtitle: "in Zusammenarbeit mit der Musikuniversität"
+  content: "<p>Präsentationen und Workshops über Pop und Klassik – Jazzimprovisation – Jugendstimmbildung – Stimmarbeit mit Countertenören – Workshop mit Hilde Zadek.</p><p>Anschließend <strong>2. Hauptversammlung</strong></p>"
+  
+- title: "Thema Stimmfach"
+  zeit: "21. April 2002"
+  ort: "Arnold-Schönberg-Center, 1030 Wien, Zaunergasse 1-3"
+  format:
+    title: Tagung
+  content: "<p>Demonstrationskonzert mit anschließender Fachdiskussion</p>"
+  
+- title: "Symposion & Hauptversammlung des BÖG"
+  zeit: "6. Oktober 2001"
+  ort: "1140 Wien, Penzinger Straße 7, Probebühne"
+  format:
+    title: "1. Symposion"
+    subtitle: "in Zusammenarbeit mit der Musikuniversität"
+  content: "<p>Anschließend <strong>1. Hauptversammlung</strong></p><p>Verleihung der <strong>Ehrenmitgliedschaft</strong> an <strong>KS Hilde Zadek</strong></p>"
+  
+- title: "Vortrag über Körper- und Atemarbeit"
+  zeit: "23. Jänner 2001"
+  ort: "Konservatorium der Stadt Wien, 1010 Wien, Johannesgasse 4A"
+  format:
+    title: "Vortrag"
+  content: "<p>Austauschkonzert von Studierenden an Musikuniversität und Konservatorium</p>"
+  
+- title: "Das Liedschaffen der Wiener Schule"
+  zeit: "1. Oktober 2000"
+  ort: "Arnold-Schönberg-Center, 1030 Wien, Zaunergasse 1-3"
+  format:
+    title: Meisterkurs
+  content: "<p>Verleihung der <strong>Ehrenmitgliedschaft</strong> an <strong>KS Walter Berry</strong></p>"
+  
+- title: "Gründungsversammlung des BÖG Bund österreichischer Gesangspädagogen"
+  zeit: "17. Juni 2000"
+  ort: "Musikuniversität, 1030 Wien, Anton von Webern-Platz 1"
+  format:
+    title: Gründung

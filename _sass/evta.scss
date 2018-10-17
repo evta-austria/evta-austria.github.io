@@ -1,0 +1,41 @@
+/* Variables */
+@import "evta/variables";
+
+/* Mixins and functions */
+@import "evta/mixins/lists";
+@import "evta/mixins/hyphens";
+
+/* Core CSS */
+@import "evta/normalize";
+@import "evta/typography";
+@import "evta/rechtliches";
+
+/* Components */
+@import "evta/components/grid";
+@import "evta/components/media";
+@import "evta/components/navigation";
+@import "evta/components/footer";
+@import "evta/components/emoji";
+@import "evta/components/breadcrumbs";
+@import "evta/components/content";
+@import "evta/components/card";
+@import "evta/components/button";
+@import "evta/components/toc";
+@import "evta/components/timeline";
+@import "evta/components/ankuender";
+@import "evta/components/slideshow";
+
+/* Utility classes */
+@import "evta/utilities";
+
+/* general layout styles */
+@import "evta/layout";
+@import "evta/container";
+
+/* layout specific styles */
+@import "evta/layouts/collection";
+
+/* Vendor */
+@import "evta/vendor/font-awesome-4.7.0";
+
+/* -------------------------------------------------------------------------- */

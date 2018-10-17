@@ -1,0 +1,24 @@
+{% assign url_segments = page.url | split: '/' %}
+{% assign url_segment = url_segments[1] %}
+<header class="bg-white" role="navigation">
+  <nav>
+    <a class="logo" href="{{ site.baseurl }}/" title="Zurück zur Startseite"><img src="/assets/evta.at.svg" alt="Logo EVTA-Austria"></a>
+    <ul class="meta">
+      <li><a href="{{ site.baseurl }}/">Startseite</a></li>
+      <li><a href="{{ site.baseurl }}/mitgliedschaft/">Mitgliedschaft</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+    <label class="toggle" for="drop">Navigation <i class="fa fa-bars" aria-hidden="true"></i></label>
+    <input id="drop" type="checkbox">
+    <ul class="main" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+      <li><a href="{{ site.baseurl }}/">Home</a></li>
+      <li{% if url_segment == 'mitgliedschaft' %} class="active"{% endif %}><a href="{{ site.baseurl }}/mitgliedschaft/">Mitgliedschaft</a></li>
+      <li{% if url_segment == 'about' %} class="active"{% endif %}><a href="{{ site.baseurl }}/about/">Über uns</a></li>
+      <li{% if url_segment == 'aktuelles' %} class="active"{% endif %}><a href="{{ site.baseurl }}/aktuelles/">Aktuelles</a></li>
+      <li{% if url_segment == 'reminiszenzen' %} class="active"{% endif %}><a href="{{ site.baseurl }}/reminiszenzen/">Reminiszenzen</a></li>
+      <li{% if url_segment == 'vox-humana' %} class="active"{% endif %}><a href="{{ site.baseurl }}/vox-humana/"><i>vox humana</i></a>
+    </ul>
+    <hr>
+    {% include breadcrumbs.html %}
+  </nav>
+</header>

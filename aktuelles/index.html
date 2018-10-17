@@ -1,0 +1,24 @@
+--- 
+layout: page 
+title: Aktuelles
+kicker: Veranstaltungen, Tagungen, Symposien, etc.
+description: "Auf dieser Seite finden Sie Ankündigungen von Veranstaltungen des Vereins und seiner Mitglieder"
+breadcrumb: Veranstaltungen
+---
+<ul class="ankuender">
+  {% for event in site.data.aktuelles %}
+    <li>
+      <div class="media{% cycle '', 'media--reverse' %}">
+        <img class="media-figure" src="{{ site.baseurl }}/aktuelles/icons/{{ event.slug }}.png" alt="{{ event.title }}">
+        <div class="media-body">
+          <span class="media-time">{{ event.zeit }}</span>
+          <h3>{{ event.title }}</h3>
+          {{ event.content }}
+          <p class="media-button">
+            <a class="button c-white fw-bolder bg-complementary" href="{{ site.baseurl }}/aktuelles/flyer/{{ event.slug }}.pdf">Flyer zur Veranstaltung <i class="fa fa-eye" aria-hidden="true"></i></a>
+          </p>
+        </div>
+      </div>
+    </li>    
+  {% endfor %}
+</ul>
