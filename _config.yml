@@ -51,7 +51,7 @@ plugins:
   - jekyll-seo-tag
 
 css:
-  version: 0.9.0
+  version: 0.9.1
   
 ## Google Analytics    
 #
