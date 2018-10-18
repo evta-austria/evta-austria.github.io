@@ -47,10 +47,23 @@ article.content {
   strong {
     font-weight: bold;
   }
+  mark {
+    background: #ffeda6 !important;
+    padding: .25em;
+  }
+  code {
+		display: inline-block;
+		padding: 0 .25em;
+		background: #fafcfc;
+		border: 1px solid lighten( $ci-text-color, 50% );
+		border-radius: 4px;
+		color: $ci-text-color;
+  }
   @include list( "hand", "\f0a4", $ci-text-color );
 	@include list( "share", "\f064", $ci-text-color );
 	@include list( "checked", "\f00c", $ci-text-color ); 
 	@include list( "thumb", "\f164", $ci-text-color ); 
+	@include list( "arrow-r", "\f178", $ci-text-complementary-heavy );
 }
 @media (min-width: $break-md ) {
 

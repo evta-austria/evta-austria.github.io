@@ -22,6 +22,9 @@
 .bg-complementary {
 	background-color: $ci-text-complementary-heavy !important;
 }
+.bg-triade-120 {
+	background-color: $ci-text-triade-120-light;
+}
 .fw-light {
 	font-weight: 300;
 }
@@ -57,4 +60,10 @@
 }
 .a-center {
 	text-align: center;
+}
+.lowlight {
+  color: #888;
+  font-size: smaller;
+  margin-top: -1em; 
+  font-family: $font-family-sans-serif;
 }

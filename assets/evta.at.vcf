@@ -1,0 +1,6 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Vácha;Martin
+EMAIL;TYPE=INTERNET:office@evta.at
+ADR;TYPE=intl,work,postal,parcel:;;Penzingerstraße 7 c/o Universität für Musik und darstellende Kunst;Wien;;1140;AT
+END:VCARD
