@@ -1,0 +1,15 @@
+.layout--page {
+	.versandkosten {
+		font-family: $font-family-sans-serif;
+		font-size: 1em;
+		
+		p {
+		  margin: .125em 0;
+		}
+	}
+  p.callout {
+    color: $ci-text-color;
+    margin: -2em 0 0;
+    font-family: $font-family-sans-serif;
+  }	
+}
