@@ -1,20 +1,21 @@
 --- 
 layout: page 
-title: Der Infonewsletter von EVTA-Austria
-kicker: Bleiben Sie auf dem letzten Stand
+title: Kontakt
+kicker: Wie können wir Ihnen weiterhelfen?
 description: ""
-breadcrumb: Newsletter
+breadcrumb: Kontakt
 ---
 <form id="antrag" class="form form-stacked" accept-charset="UTF-8" method="post" action="https://www.klick-tipp.com/api/subscriber/signin.html">
-  <input type="hidden" id="FormField_ApiKey" name="apikey" value="3p3wz2ewbz8zcba6">
+  <input type="hidden" id="FormField_ApiKey" name="apikey" value="3k4sz2ewbz8z6b8e">
   <input type="hidden" id="FormField_Digit" name="fields[fieldDigit]" value="">
   
   <p>
-    <strong>Bitte füllen Sie alle Felder aus</strong>. 
-    Nur so können wir Sie in unseren Verteiler aufnehmen.
+    <strong>Bitte füllen Sie alle mit * gekennzeichneten Felder aus</strong>. 
+    Nur so können wir Ihre Anfrage beantworten.
   </p>
   <p>
-    Bitte seien Sie bei der Eingabe Ihrer Mailadresse besonders Gewissenhaft.
+    Kontrollieren Sie bitte Ihre Email-Adresse und Ihre Kontaktdaten unter denen 
+    wir Sie bei Rückfragen erreichen können.
   </p>
   <fieldset>
     <legend><b>Name</b></legend>
@@ -39,7 +40,26 @@ breadcrumb: Newsletter
       <div class="cell">
         <input type="email" name="email" class="input-1" value="" placeholder="e-Mail-Adresse*" required>
       </div>
+      <div class="cell">
+        <input type="text" name="fields[fieldPhone]" class="input-1" value="" placeholder="Telefon* (bevorzugt Mobiltelefon)" pattern="+[0-9]{9,20}" required>
+      </div>
     </div>
+    <span class="form-message-inline">Telefonnummer bitte im Format <code>+Landesvorwahl Ortsvorwahl Telefonnummer</code> angeben,<br>
+    e.g. +43 664 1234567</span>
+  </fieldset>
+  
+  <fieldset> 
+    <legend><b>Ihre Nachricht</b></legend>
+    <select name="fields[field78905]" class="input-1" required>
+      <option value="">(bitte auswählen)*</option>
+      <option value="internationales">Internationale Belange/ICVT</option>
+      <option value="redaktion">Redaktion vox humana</option>
+      <option value="finanzen">Finanzen</option>
+      <option value="abo">Abonnement vox humana</option>
+      <option value="newsletter">Newsletter</option>
+      <option value="webmasta">Webmasta</option>
+    </select>
+    <textarea name="fields[field75047]" class="input-1" rows="5" placeholder="Bemerkung*" required></textarea>
   </fieldset>
   
   <fieldset> 
@@ -50,17 +70,20 @@ breadcrumb: Newsletter
     </label>
     <label for="accept-newsletter" class="checkbox">
       <input id="accept-newsletter" type="checkbox" name="fields[field75102]" value="true">
-      Ja, ich möchte den kostenlosen e-Mail-Newsletter von EVTA-Austria erhalten und weiß, dass ich meine Subskription jederzeit mit einem einfachen Klick widerrufen kann.
+      Ich möchte den <a href="/newsletter/" target="blank">e-Mail-Newsletter</a> erhalten und weiß, dass ich meine Subskription jederzeit mit einem einfachen Klick widerrufen kann.
     </label>
   </fieldset>
   
   <input type="submit" name="FormSubmit" value="Kontaktanfrage senden" class="button c-white fw-bolder bg-complementary">
   
   <p>
-    Nach erfolgreicher Bestätigung Ihrer Mailadresser erhalten Sie Ihre Subskriptionsbestätigung.
+    Die Bestätigung Ihrer Mailadresse ist erforderlich! Wechseln Sie dazu in Ihr e-Mail-Programm und holen Sie Ihre Mails ab. Folgen Sie den Anweisungen in der Bestätigungsmail.
   </p>
   <p>
-    Die Mail kommt mit dem Betreff <code>[EVTA] Wir haben Sie in den Newsletter aufgenommen</code>
+    Nach erfolgreicher Bestätigung Ihrer Mailadresser erhalten Sie eine Eingangsbestätigung Ihrer Anfrage.
+  </p>
+  <p>
+    Die Mail kommt mit dem Betreff <code>[EVTA] Wir haben Ihre Kontaktanfrage erhalten</code>
   </p>
 </form>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 

@@ -1,7 +1,41 @@
 #
 #
 # aktuellste Veranstaltung steht oben
-#
+# 
+    
+- title: "Singen lehren und lernen an der Musikschule"
+  zeit: "8.-9. Juni 2018"
+  ort: "Tiroler Landeskonservatorium, Paul-Hofhaimer-Gasse 6, Innsbruck"
+  format:
+    title: "Jahreskongress"
+    subtitle: "in Zusammenarbeit mit dem Tiroler Musikschulwerk"
+  download:
+    type: bericht
+    url: 18te-HV-Protokoll.pdf
+    text: "Protokoll der 18. Hauptversammlung"
+    
+- title: "Abenteuer Belcanto"
+  zeit: "24. Juni 2017"
+  ort: "1140 Wien, Penzingerstraße 7"
+  format:
+    title: "Symposion"
+    subtitle: "in Zusammenarbeit mit dem Institut für Gesang und Musiktheater der Universität für Musik und darstellende Kunst Wien"
+  download:
+    type: bericht
+    url: 20170624_Symposium_Abenteuer-Belcanto.pdf
+    text: "Bericht von Gabriele Rösel"
+    
+- title: "10. Hilde Zadek Wettbewerb" 
+  zeit: "April 2017"
+  ort: "Finale im Gläsernen Saal des Wiener Musikvereines"
+  format:
+    title: "Wettbewerb"
+    subtitle: "veranstaltet von der Hildegard Zadek Stiftung in Zusammenarbeit mit der Universität für Musik und darstellende Kunst Wien und EVTA-Austria"
+  download:
+    type: bericht
+    url: 2017_10th-Zadek-Wettbewerb.pdf
+    text: Bericht von Helga Wagner
+  content: '<p>Weitere Informationen auf der <a href="https://zadek-competition.jimdo.com/der-wettbewerb/der-wettbewerb-2017/">Homepage</a> des Wettbewerbs.</p>'  
 
 - title: "Richard Wagner & der Sängernachwuchs"
   zeit: "29. September – 1. Oktober 2016"

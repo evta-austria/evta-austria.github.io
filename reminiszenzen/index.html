@@ -18,7 +18,7 @@ breadcrumb: Reminiszenzen
           {% if veranstaltung.format.subtitle %}{{ veranstaltung.format.subtitle }}, {% endif %}{{ veranstaltung.ort }}.
           {% if veranstaltung.download %} 
             <p>
-              {{ veranstaltung.download.text }} <a href="{{ site.baseurl }}/reminiszenzen/{{ veranstaltung.download.type }}e/{{ veranstaltung.download.url }}" download>herunterladen <i class="fa fa-download" aria-hidden="true"></i></a>
+              {{ veranstaltung.download.text }} <a href="{{ site.baseurl }}/reminiszenzen/{{ veranstaltung.download.type }}e/{{ veranstaltung.download.url }}" download><i class="fa fa-eye" aria-hidden="true" title="lesen"></i></a> <a href="{{ site.baseurl }}/reminiszenzen/{{ veranstaltung.download.type }}e/{{ veranstaltung.download.url }}" download><i class="fa fa-download" aria-hidden="true" title="herunterladen"></i></a>
             </p>
           {% endif %}
           {% if veranstaltung.content %}
