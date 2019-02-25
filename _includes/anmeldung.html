@@ -1,0 +1,135 @@
+<form id="antrag" class="form form-stacked" accept-charset="UTF-8" method="post" action="https://www.klick-tipp.com/api/subscriber/signin.html">
+  <input type="hidden" id="FormField_ApiKey" name="apikey" value="3vc9z2ewbz8z3be5">
+  <input type="hidden" id="FormField_Digit" name="fields[fieldDigit]" value="">
+  
+  <p>
+    <strong>Bitte füllen Sie alle mit * gekennzeichneten Felder aus</strong>. 
+    Nur so ist Ihre Anmeldung gültig.
+  </p>
+  <p>
+    Kontrollieren Sie bitte Ihre Email-Adresse und Ihre Kontaktdaten unter denen 
+    wir Sie bei Rückfragen erreichen können.
+  </p>
+  <fieldset>
+    <legend><b>Name und Anschrift</b></legend>
+    <select name="fields[field75041]" class="input-1-2" required>
+      <option value="">Anrede*</option>
+      <option value="Frau">Frau</option>
+      <option value="Herr">Herr</option>
+    </select>
+    <input type="text" name="fields[field75042]" class="input-1-2" value="" placeholder="Titel">
+    <div class="grid grid--full lg-grid--fit">
+      <div class="cell">
+        <input type="text" name="fields[fieldFirstName]" class="input-1" value="" placeholder="Vorname*" required>
+      </div>
+      <div class="cell">
+        <input type="text" name="fields[fieldLastName]" class="input-1" value="" placeholder="Nachname*" required>
+      </div>
+    </div>
+    <input type="text" name="fields[fieldStreet1]" class="input-1" value="" placeholder="Straße*" required>
+    <div class="grid grid--full lg-grid--fit">
+      <div class="cell">
+        <input type="text" name="fields[fieldZip]" class="input-1" value="" placeholder="Postleitzahl*" required>
+      </div>
+      <div class="cell">
+        <input type="text" name="fields[fieldCity]" class="input-1" value="" placeholder="Ort*" required>
+      </div>
+      <div class="cell">
+        <select name="fields[fieldCountry]" class="input-1" required>
+          <optgroup>
+              <option value="">Land*</option>
+              <option value="DE">Deutschland</option>
+              <option value="LI">Liechtenstein</option>
+              <option value="AT">Österreich</option>
+              <option value="CH">Schweiz</option>
+          </optgroup>
+          <optgroup label="------------------------------------">
+              <option value="AL">Albanien</option>
+              <option value="AD">Andorra</option>
+              <option value="BE">Belgien</option>
+              <option value="BA">Bosnien und Herzegowina</option>
+              <option value="BG">Bulgarien</option>
+              <option value="DK">Dänemark</option>
+              <option value="EE">Estland</option>
+              <option value="FI">Finnland</option>
+              <option value="FR">Frankreich</option>
+              <option value="GR">Griechenland</option>
+              <option value="IE">Irland</option>
+              <option value="IS">Island</option>
+              <option value="IT">Italien</option>
+              <option value="KZ">Kasachstan</option>
+              <option value="XK">Kosovo</option>
+              <option value="HR">Kroatien</option>
+              <option value="LV">Lettland</option>
+              <option value="LT">Litauen</option>
+              <option value="LU">Luxemburg</option>
+              <option value="MT">Malta</option>
+              <option value="MK">Mazedonien</option>
+              <option value="MD">Moldawien</option>
+              <option value="MC">Monaco</option>
+              <option value="ME">Montenegro</option>
+              <option value="NL">Niederlande</option>
+              <option value="NO">Norwegen</option>
+              <option value="PL">Polen</option>
+              <option value="PT">Portugal </option>
+              <option value="RO">Rumänien</option>
+              <option value="RU">Russland</option>
+              <option value="SM">San Marino</option>
+              <option value="SE">Schweden</option>
+              <option value="RS">Serbien</option>
+              <option value="SK">Slowakei</option>
+              <option value="SI">Slowenien</option>
+              <option value="ES">Spanien</option>
+              <option value="CZ">Tschechien</option>
+              <option value="TR">Türkei</option>
+              <option value="UA">Ukraine</option>
+              <option value="HU">Ungarn</option>
+              <option value="VA">Vatikanstadt</option>
+              <option value="GB">Vereinigtes Königreich</option>
+              <option value="BY">Weißrussland</option>
+          </optgroup>
+        </select>
+      </div>
+    </div>
+  </fieldset>
+  
+  <fieldset> 
+    <legend><b>Kontakt</b></legend>
+    <div class="grid grid--full lg-grid--fit">
+      <div class="cell">
+        <input type="email" name="email" class="input-1" value="" placeholder="e-Mail-Adresse*" required>
+      </div>
+      <div class="cell">
+        <input type="text" name="fields[fieldPhone]" class="input-1" value="" placeholder="Telefon* (bevorzugt Mobiltelefon)" pattern="+[0-9]{9,20}" required>
+      </div>
+    </div>
+    <span class="form-message-inline">Telefonnummer bitte im Format <code>+Landesvorwahl Ortsvorwahl Telefonnummer</code> angeben,<br>
+    e.g. +43 664 1234567</span>
+  </fieldset>
+  
+  <fieldset> 
+    <legend><b>Datenschutz und Newsletter</b></legend>
+    <label for="accept-dsgvo" class="checkbox">
+      <input id="accept-dsgvo" type="checkbox" name="fields[field75048]" value="true" required>
+      Ich habe die <a href="/rechtliches/datenschutz.html" target="blank">Datenschutzerklärung</a> verstanden und erkläre mich mit der Verarbeitung meiner Daten einverstanden.
+    </label>
+    <label for="accept-newsletter" class="checkbox">
+      <input id="accept-newsletter" type="checkbox" name="fields[field75102]" value="true">
+      Ich möchte den <a href="/newsletter/" target="blank">e-Mail-Newsletter</a> erhalten und weiß, dass ich meine Subskription jederzeit mit einem einfachen Klick widerrufen kann.
+    </label>
+  </fieldset>
+  
+  <input type="submit" name="FormSubmit" value="Zum Jahreskongress anmelden" class="button c-white fw-bolder bg-triade-120">
+  
+  <p>
+    Eine Eingangsbestätigung Ihrer Anmeldung wird an Ihre e-Mail-Adresse gesendet.
+  </p>
+  <p>
+    Die Mail kommt mit dem Betreff <code>[EVTA] Wir haben Ihre Anmeldung erhalten</code>
+  </p>
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+<script src="/assets/js/parsley.min.js"></script>
+<script>
+  $('#antrag').parsley();
+</script>

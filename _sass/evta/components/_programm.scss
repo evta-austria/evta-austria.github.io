@@ -1,0 +1,33 @@
+table.program {
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+	
+	tr.coffee {
+	  background-color: #ccf1ff;
+	}
+	tr.break {
+	  background-color: #f4f7ea;
+	}
+	tr.assembly {
+	  background-color: #fcbdd6;
+	}
+	td {
+    padding: .25em 1em;
+	}
+	td:first-child {
+	  font-weight: bold;
+	  vertical-align: top;
+	  width: 10%;
+	}
+	td:last-child {
+	}
+}
+hr {
+	border: 0;
+	height: 1px;
+	background: #333;
+  background-image: none;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  margin: 3em 2em;
+}
