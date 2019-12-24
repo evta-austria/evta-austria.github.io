@@ -18,9 +18,12 @@ table.program {
 	td:first-child {
 	  font-weight: bold;
 	  vertical-align: top;
-	  width: 10%;
+	  width: 25%;
 	}
 	td:last-child {
+	}
+	.normal {
+	  font-weight: normal;
 	}
 }
 hr {

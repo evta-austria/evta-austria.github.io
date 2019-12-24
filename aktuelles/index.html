@@ -1,27 +1,66 @@
 --- 
 layout: page 
-title: Aktuelles
-kicker: Veranstaltungen, Tagungen, Symposien, etc.
-description: "Auf dieser Seite finden Sie Ankündigungen von Veranstaltungen des Vereins und seiner Mitglieder"
+title: Jahreskongress &amp; 20. Hauptversammlung
+kicker: Musica Sacra im Spiegel der Gesangspädagogik
+description: "Herzliche Einladung zum Jahreskongress &amp; der 20. Hauptversammlung von EVTA-Austria, am Samstag 25. und Sonntag 26. April 2020 in Zusammenarbeit mit dem Konservatorium für Kirchenmusik der Diözese St. Pölten."
 breadcrumb: Veranstaltungen
 ---
-<ul class="ankuender">
-  {% for event in site.data.aktuelles %}
-    <li>
-      <div class="media{% cycle '', 'media--reverse' %}">
-        <img class="media-figure" src="{{ site.baseurl }}/aktuelles/icons/{{ event.slug }}.png" alt="{{ event.title }}">
-        <div class="media-body">
-          <span class="media-time">{{ event.zeit }}</span>
-          <h3>{{ event.title }}</h3>
-          {{ event.content }}
-          <p class="media-button">
-            <a class="button c-white fw-bolder bg-complementary" href="{{ site.baseurl }}/aktuelles/flyer/{{ event.slug }}.pdf">Flyer zur Veranstaltung <i class="fa fa-eye" aria-hidden="true"></i></a>
-          </p>
-        </div>
-      </div>
-    </li>    
-  {% endfor %}
-  {% unless site.data.aktuelles %}
-    <li>Derzeit keine aktuellen Veranstaltungen</li>
-  {% endunless %}
-</ul>
+<img src="genter-altar-van-eyck.jpg" alt="Jahreskongress der EVTA-Austria 25.-26. April 2020">
+<h2>Programm</h2>
+<table class="program">
+  <tr>
+    <td colspan="2">
+      <strong>Samstag, 25. April 2020, 10 - 19 Uhr</strong>
+    </td>
+  </tr>
+  <tr>
+    <td>Kurzreferate</td>
+    <td>
+      Mag. Johann Simon Kreuzpoitner<br>
+      <i>Referent für Kirchenmusk der Diözese St. Pölten</i><br>
+      Otto Kargl<br>
+      <i>Domkapellmeister St. Pölten</i><br>
+      Prof. Mag. Michael Poglitsch<br>
+      <i>Leiter des Diözesankonservatoriums St. Pölten</i>
+    </td>
+  </tr>
+  <tr class="assembly">
+    <td colspan="2">20. Hauptversammlung von EVTA-Austria <span class="normal">(Gäste willkommen!)</span></td>
+  </tr>
+  <tr>
+    <td colspan="2">Mitgliederforen <span class="normal">(Gäste willkommen!)</span></td>
+  </tr>
+  <tr class="coffee">
+    <td>Meisterklasse</td><td>Univ.-Prof. KS Birgid Steinberger</td>
+  </tr>
+  <tr>
+    <td>Podiumsgespräch</td>
+    <td>
+      „Musica Sacra im Spiegel der Gesangspädagogik”<br>
+      Anschließend gemütlicher Ausklang
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Sonntag, 26. April 2020, 10:30 Uhr
+    </td>
+  </tr>  
+  <tr>
+    <td>&nbsp;</td>
+    <td>  
+      Festlicher Gottesdienst in der Domkirche St. Pölten<br>
+      mit Musik von J. S. Bach: “Bleib bei uns”, Kantate BWV 6<br>
+      Domkantorei &amp; Ensemble auf Originalinstrumenten
+    </td>
+  </tr>
+  <tr>
+    <td>Teilnahmegebühr</td>
+    <td>  
+      Normalpreis 40 €<br>
+      Studierende bis 28 Jahre 20 €<br>
+      EVTA Mitglieder und Angehörige des Diözesankonservatoriums frei
+    </td>
+  </tr>  
+</table>
+<h3>Anmeldung</h3>
+{% include anmeldung.html %}
