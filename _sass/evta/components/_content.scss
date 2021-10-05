@@ -59,6 +59,14 @@ article.content {
 		border-radius: 4px;
 		color: $ci-text-color;
   }
+  kbd {
+    display: inline-block;
+    padding: 0 .25em;
+    background: $black;
+    border: 1px solid lighten( $ci-text-color, 50% );
+    border-radius: 4px;
+    color: $white
+  }
   @include list( "hand", "\f0a4", $ci-text-color );
 	@include list( "share", "\f064", $ci-text-color );
 	@include list( "checked", "\f00c", $ci-text-color ); 
