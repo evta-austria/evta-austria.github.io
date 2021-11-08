@@ -8,14 +8,23 @@
   format:
     title: "Jahreskongress"
     subtitle: "in Zusammenarbeit mit dem Konservatorium für Kirchenmusik der Diözese St. Pölten"
-    
+  download:
+    type: bericht
+    url: 20200926_Jahreskongress-Musica-Sacra.pdf
+    text: "Bericht von Gabriele Rösel und Helga Wagner"
+  content: '<p>Verleihung der Ehrenmitgliedschaft an KS <a href="/about/birgid-steinberger/">Birgid Steinberger</a></p>'
+      
 - title: "Jahreskongress &amp; 19. Hauptversammlung"   
   zeit: "11. Mai 2019"
   ort: "Kunst Privatuniversität der Stadt Wien, Johannesgasse 4a, 1010 Wien"
   format:
     title: "Jahreskongress"
     subtitle: "Vorträge, Darbietungen und Round Table zum Thema Operette in Zusammenarbeit mit dem Universitätslehrgang Klassische Operette"
-    
+  download:
+    type: bericht
+    url: 20190511_Jahreskongress-Operette.pdf
+    text: "Bericht von Gabriele Rösel"
+      
 - title: "Singen lehren und lernen an der Musikschule"
   zeit: "8.-9. Juni 2018"
   ort: "Tiroler Landeskonservatorium, Paul-Hofhaimer-Gasse 6, Innsbruck"

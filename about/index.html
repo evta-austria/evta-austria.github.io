@@ -89,7 +89,7 @@ toc: true
   {% endfor %}
   
   <h3 id="Ehrenmitglieder">Ehrenmitglieder</h3>
-  {% for i in (1..6) %}
+  {% for i in (1..7) %}
     {% assign p = site.pages | where: 'ehrenmitglied_order_id', i | first %}
     <div class="card{% cycle '', ' card--reverse' %}">
       <img class="card__figure" src="{{ p.image.path }}" width="{{ page.image.width }}" height="{{ page.image.height }}" alt="{{ p.image.alt }}">
