@@ -2,6 +2,16 @@
 #
 # aktuellste Veranstaltung steht oben
 # 
+- title: "21. Hauptversammlung"
+  zeit: "19. November 2021"
+  ort: "Zoom Meeting um 20 Uhr"
+  format:
+    title: "Hauptversammlung"
+  download:
+    type: protokoll
+    url: 21te-HV_Protokoll.pdf
+    text: "Protkoll"
+    
 - title: "Jahreskongress 2020 &amp; Hauptversammlung"
   zeit: "26. September 2020"
   ort: "Konservatorium für Kirchenmusik der Diözese St. Pölten"
@@ -32,7 +42,7 @@
     title: "Jahreskongress"
     subtitle: "in Zusammenarbeit mit dem Tiroler Musikschulwerk"
   download:
-    type: bericht
+    type: protokoll
     url: 18te-HV-Protokoll.pdf
     text: "Protokoll der 18. Hauptversammlung"
     
