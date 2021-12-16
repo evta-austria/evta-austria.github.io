@@ -2,7 +2,7 @@
 #
 # aktuellste Veranstaltung steht oben
 # 
-- title: "2. Stimm(fort)bildung (online) finanziert von der Musikschule Liechtenstein"
+- title: "2. Stimm(fort)bildung (online)"
   zeit: "20. November 2021"
   ort: "Zoom Meeting"
   format:
@@ -11,6 +11,7 @@
     type: bericht
     url: 2021_Abschlussbericht-Stimmfortbildung.pdf
     text: "Bericht von Judith Bechter"
+  content: '<p>Mit freundlicher Unterstützung durch die Musikschule Liechtenstein, das Mozarteum, den Musikschulwerken von Tirol und Vorarlberg und dem Vorarlberger Landeskonservatorium.</p>'
     
 - title: "21. Hauptversammlung"
   zeit: "19. November 2021"
